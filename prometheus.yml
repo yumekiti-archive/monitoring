@@ -1,0 +1,9 @@
+global:
+  scrape_interval: 5s
+  
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+      - targets:
+        - 'prometheus:9090'
+        - 'node-exporter:9100'
