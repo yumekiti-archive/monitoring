@@ -31,7 +31,9 @@ rate(node_network_transmit_bytes_total[1m])
 https://go-journey.club/archives/6782
 
 ## CPU負荷を掛けたい
+```
 stress --cpu 4 --timeout 1m
+```
 
 ## メモリへ負荷をかける
 ```
