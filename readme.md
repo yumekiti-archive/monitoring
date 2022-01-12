@@ -44,3 +44,13 @@ stress --vm 4 --vm-bytes 1G --timeout 1m
 ```
 stress --hdd 1 --timeout 1m
 ```
+
+# grafana
+
+初期id
+    admin
+初期ps
+    admin
+
+data sources
+    url: http://prometheus:9090
